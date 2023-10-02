@@ -32,11 +32,18 @@ a{
 ul{
   list-style: none;
 }
+/* Things that would'nt display on normal screen sizes */
+.small-nav-link{
+  display: none;
+}
+.small-tabs{
+  display: none;
+}
 
 /* -----------Top Header section-------- */
 .top-header{
-  justify-content: space-between;
   padding-inline: 24px;
+  justify-content: space-between;
   padding-block: 9px 3px;
   background-color: var(--dark-top-header);
   color: #fff;
@@ -65,6 +72,7 @@ ul{
 
 /* -----------Bottom Header section-------- */
 .bottom-header{
+  display: flex;
   padding-inline: 38px 17px;
   margin-block: 15px 8px;
   color: var(--dark-top-header);
@@ -130,15 +138,18 @@ ul{
 }
 .center-text p:nth-child(1){
   font-size: 16px;
+  line-height: 24px;
   color: var(--light-blue);
 }
 .center-text h1{
   font-size: 3.625rem;
+  line-height: 56px;
   color: var(--dark-top-header);
 }
 .center-text p:nth-child(3){
   font-size: 20px;
   width: 65%;
+  line-height: 27px;
   color: var(--gray-text);
 }
 .center-text button{
@@ -158,4 +169,199 @@ ul{
   position: absolute;
   left: 2.5rem;
   width: 696px;
+}
+
+/* ------------medium screen sizes---------- */
+@media screen and (max-width: 1300px) and (min-width: 900px){
+  .banner{
+    overflow: hidden;
+    height: 440px;
+    margin-inline: 39px 89px;
+    margin-block: 42px 55px;
+  }
+  .center-text{
+    gap: 20px;
+    width: 85%;
+  }
+  .center-text p:nth-child(1){
+    font-size: 16px;
+  }
+  .center-text h1{
+    font-size: 2.625rem;
+  }
+  .center-text p:nth-child(3){
+    font-size: 18px;
+    width: 75%;
+  }
+  .center-text button{
+    font-size: 22px;
+  }
+  .banner-image{
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .banner-image img{
+    position: absolute;
+    right: .5rem;
+    width: 490px;
+    height: 100%;
+  }
+  
+}
+@media screen and (max-width: 890px) and (min-width: 720px){
+  .top-header{
+    display: none;
+  }
+  .reg-icon a{
+    display: none;
+  }
+  
+  .banner{
+    overflow: none;
+    border-radius: 20px;
+    height: fit-content;
+    margin-inline: 59px 89px;
+    margin-block: 42px 55px;
+    display: flex;
+    padding-top: 5rem;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+    background: linear-gradient(90deg, var(--gradient-blue), var(--gradient-green));
+  }
+
+  .banner-text{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+  }
+  .center-text p:nth-child(3){
+    font-size: 20px;
+    width: 100%;
+    font-size: 1.65rem;
+    text-align: center;
+    line-height: 30px;
+    color: var(--gray-text);
+  }
+  .center-text button{
+    width: fit-content;
+    background-color: #23A6F0;
+    font-size: 24px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+
+  .banner-image{
+    position: relative;
+    height: 30rem;
+  }
+  .banner-image img{
+    position: unset;
+    left: 0rem;
+    width: 100%;
+    height: 100%;
+  }
+  
+}
+
+/* ------------small screen sizes---------- */
+@media screen and (max-width: 710px){
+  .top-header{
+    display: none;
+  }
+  .bottom-header{
+    display: grid;
+    padding-inline: 2.19rem;
+    grid-template-columns: 1fr 1fr;
+  }
+  .nav-link{
+    display: none;
+  }
+  .nav-brand{
+    font-size: 24px;
+    align-items: center;
+  }
+  .small-nav-link{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.2rem;
+    align-items: center;
+  }
+  .small-nav-icon{
+    height: 1.5rem;
+  }
+  .small-nav-icon:nth-child(3){
+    height: 1.1rem;
+  }
+  .small-tabs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 15rem;
+    width: 100%;
+    /* background-color: #23A6F0; */
+    font-size: 1.875rem;
+  }
+  .small-tabs li a{
+    color: var(--gray-text);
+    font-weight: 700;
+  }
+
+  
+  .banner{
+    overflow: none;
+    border-radius: 20px;
+    height: fit-content;
+    align-items: center;
+    margin: 40px auto;
+    display: flex;
+    padding-top: 5rem;
+    flex-direction: column;
+    gap: 5rem;
+    width: 80%;
+    background: linear-gradient(90deg, var(--gradient-blue), var(--gradient-green));
+  }
+
+  .banner-text{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+  }
+  .center-text p:nth-child(1){
+    font-size: 1rem;
+  }
+  .center-text h1{
+    font-size: 2.5rem;
+  }
+  .center-text p:nth-child(3){
+    width: 100%;
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 30px;
+    color: var(--gray-text);
+  }
+  .center-text button{
+    width: fit-content;
+    background-color: var(--login-link-color);
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+/* banner image section  */
+  .banner-image{
+    position: relative;
+    height: 20rem;
+  }
+  .banner-image img{
+    position: unset;
+    left: 0rem;
+    width: 100%;
+    height: 100%;
+  }
 }
