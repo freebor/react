@@ -1,0 +1,275 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+
+    --dark-top-header: #252B42;
+    --login-link-color: #23A6F0;
+    --light-blue: #2A7CC7;
+    --gray-text: #737373;
+    --top-product-color: rgba(45, 139, 192, 0.75);
+
+    /* -----gradient-colors----- */
+    --gradient-green : #ABECD7;
+    --gradient-blue : #97E9FA;
+}
+
+/* --------BestServices section's CSS-------------- */
+.PracticeAdvice-container{
+    padding-block: 5rem;
+    display: grid;
+    gap: 5rem;
+    width: 65.625rem;
+}
+.PracticeAdvice-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.PracticeAdvice-header h6{
+    font-size: 0.875rem;
+    color: var(--login-link-color);
+}
+
+
+/* --------BestServices section's CSS-------------- */
+.best-services-container{
+    padding-block: 5rem;
+    display: grid;
+    gap: 5rem;
+    width: 65.625rem;
+}
+.best-service-header{
+    gap: 0.63rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.best-service-header h2{
+    font-size: 1.25rem;
+    color: var(--gray-text);
+    font-weight: 700;
+    line-height: 1.875rem;
+}
+.best-service-header h3{
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: 700;
+    line-height: 2rem;
+}
+.best-service-header p{
+    font-size: 0.875rem;
+    color: var(--gray-text);
+    font-weight: 700;
+    line-height: 1.25rem;
+}
+.best-service-image-wrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.88rem;
+}
+.best-services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-inline: 2.5rem;
+    gap: 1.25rem;
+    padding-block: 2.19rem;
+}
+.best-services img{
+    height: 4.5rem;
+    width: 4.5rem;
+}
+.best-services h3{
+    font-size: 1.5rem;
+    color: #000;
+}
+.best-services p{
+    font-size: 0.875rem;
+    width: 80%;
+    color: var(--gray-text);
+}
+
+/* --------FEATURED PRODUCT section's CSS-------------- */
+.featured-container-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.featured-container{
+    padding-block: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5.62rem;
+    width: 65.625rem;
+}
+.featured-image-wrap{
+    display: flex;
+    gap: 1rem;
+}
+.featured-text-wrap{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.featured-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.2rem;
+    /* background: #23A6F0; */
+    height: fit-content;
+}
+.featured-text h5{
+    color: var(--login-link-color);
+    font-size: 1rem;
+    line-height: 1.25rem;
+}
+.featured-text h2{
+    font-size: 2.5rem;
+    line-height: 1.25rem;
+}
+.featured-text p{
+    display: flex;
+    flex-direction: column;
+    width: 19rem;
+    color: var(--gray-text);
+    gap: 1rem;
+    font-size: 0.875rem;
+}
+
+/* ---------medium screen-sizes--------- */
+@media screen and (max-width: 890px) and (min-width: 720px){
+    .featured-container-wrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .featured-container{
+        padding-block: 2rem;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 5.62rem;
+        width: 90%;
+    }
+    .featured-image-wrap{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .featured-image img{
+        height: 34.75rem;
+        width: 100%;
+    }
+    .featured-text-wrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .featured-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1.2rem;
+        width: 80%;
+        height: fit-content;
+    }
+    .featured-text h5{
+        color: var(--login-link-color);
+        font-size: 1.5rem;
+        line-height: 1.25rem;
+    }
+    .featured-text h2{
+        font-size: 2.5rem;
+        line-height: 2rem;
+    }
+    .featured-text p{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 1rem;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+}
+
+/* ---------small screen sizes----------- */
+@media screen and (max-width: 710px){
+    .featured-container-wrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .featured-container{
+        padding-block: 2rem;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 5.62rem;
+        width: 90%;
+    }
+    .featured-image-wrap{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .featured-image img{
+        height: 15.75rem;
+        width: 100%;
+    }
+    .featured-text-wrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .featured-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1.2rem;
+        width: 80%;
+        height: fit-content;
+    }
+    .featured-text h5{
+        color: var(--login-link-color);
+        font-size: .857rem;
+        line-height: 1.25rem;
+    }
+    .featured-text h2{
+        font-size: 1.7rem;
+        line-height: 2rem;
+    }
+    .featured-text p{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 1rem;
+        font-size: 0.875rem;
+    }
+
+
+    /* --------BestServices section's CSS-------------- */
+    .best-services-container{
+        padding-block: 5rem;
+        display: grid;
+        gap: 5rem;
+        width: 100%;
+    }
+    .best-service-image-wrap{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.88rem;
+    }
+    
+}

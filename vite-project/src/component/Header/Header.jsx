@@ -1,6 +1,6 @@
 import BottomHeader from "./BottomHeader"
 import TopHeader from "./TopHeader"
-import bannerImg from "../../img/banner.png"
+import bannerImg from "../../assets/img/banner.png"
 
 const Header = ()=>{
     return (

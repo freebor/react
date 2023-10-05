@@ -1,6 +1,6 @@
-import harmburger from "../../img/harmburger.svg"
-import search from "../../img/search.svg"
-import cart from "../../img/cart.svg"
+import harmburger from "../../assets/img/harmburger.svg"
+import search from "../../assets/img/search.svg"
+import cart from "../../assets/img/cart.svg"
 import { useState } from "react"
 
 const BottomHeader = ()=>{
@@ -12,12 +12,12 @@ const BottomHeader = ()=>{
                     <p className="logo">Bandage</p>
                 </div>
                 <div className="small-nav-link">
-                    <img className="small-nav-icon" src={search} alt="harmburger-icon" />
-                    <img className="small-nav-icon" src={cart} alt="harmburger-icon" />
-                    <img className="small-nav-icon" src={harmburger} alt="harmburger-icon" />
+                    <button className="small-nav-icon"><img src={search} alt="harmburger-icon" /></button>
+                    <button className="small-nav-icon"><img src={cart} alt="harmburger-icon" /></button>
+                    <button className="small-nav-icon" onClick={() => setNavNotClicked(!navClicked)}><img src={harmburger} alt="harmburger-icon" /></button>
                 </div>
 
-                <div className="nav-link df">
+                <div className="nav-link">
                     <ul className="tabs df">
                         <li><a href="#">Home</a></li>
                         <li>shop</li>
@@ -28,7 +28,7 @@ const BottomHeader = ()=>{
                     </ul>
                     <div className="tabs-login df">
                         <div className="login df">
-                            <i class="fa-regular fa-user"></i>
+                            <i className="fa-regular fa-user"></i>
                             <a href="#">Login</a><span>/</span>
                             <a href="#">Register</a>
                         </div>
@@ -40,7 +40,7 @@ const BottomHeader = ()=>{
                     </div>
                 </div>
             </div>
-            <ul className="small-tabs">
+            <ul className={navClicked ? "small-tabs" : "tabs-hidden"}>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Blog</a></li>
