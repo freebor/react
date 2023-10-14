@@ -1,6 +1,4 @@
-import featureImage1 from "../../assets/img/feature1.png"
-import featureImage2 from "../../assets/img/feature2.png"
-
+import {featureImage1, featureImage2} from "../../utilities/image"
 const Feature = () =>{
     return(
         <section className="featured-container-wrap">

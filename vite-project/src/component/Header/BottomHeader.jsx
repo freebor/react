@@ -1,7 +1,5 @@
-import harmburger from "../../assets/img/harmburger.svg"
-import search from "../../assets/img/search.svg"
-import cart from "../../assets/img/cart.svg"
 import { useState } from "react"
+import {harmburger, cart, search} from "../../utilities/image"
 
 const BottomHeader = ()=>{
     const [navClicked, setNavNotClicked] = useState(false)

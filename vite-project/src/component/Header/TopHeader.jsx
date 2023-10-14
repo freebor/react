@@ -1,7 +1,7 @@
 
-const TopHeader = ()=>{
+const TopHeader = ({bgColor})=>{
     return (
-        <div className="top-header ">
+        <div className={`top-header ${bgColor ?? ""}`}>
             <div className="num-email df">
                 <div className="number df">
                     <i className="fa-solid fa-phone"></i>
@@ -17,10 +17,10 @@ const TopHeader = ()=>{
             </div>
             <div className="follow-icon df">
                 <p>Follow Us :</p>
-                <a href=""><i className="fa-brands fa-instagram"></i></a>
-                <a href=""><i className="fa-brands fa-youtube"></i></a>
-                <a href=""><i className="fa-brands fa-facebook"></i></a>
-                <a href=""><i className="fa-brands fa-twitter"></i></a>
+                <a href="#"><i className="fa-brands fa-instagram"></i></a>
+                <a href="#"><i className="fa-brands fa-youtube"></i></a>
+                <a href="#"><i className="fa-brands fa-facebook"></i></a>
+                <a href="#"><i className="fa-brands fa-twitter"></i></a>
             </div>
         </div>
     )

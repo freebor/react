@@ -1,20 +1,28 @@
+import {products} from "../../utilities/mockData" 
+import PracticeAdviceCard from "../Practice-advice/PracticeAdviceCard"
+
 const PracticeAdvice = ()=>{
     return(
-        <section className="featured-container-wrap">
-            <div className="PracticeAdvice-container">
-                <div className="PracticeAdvice-header">
-                    <h6>Practice Advice</h6>
-                    <h3>Featured Posts</h3>
+        <>
+            <section className="featured-container-wrap">
+                <div className="practiceAdvice-container">
+                    <div className="practiceAdvice-header">
+                        <h6>Practice Advice</h6>
+                        <h3>Featured Posts</h3>
+                    </div>
+                    <div className="practiceAdvice-card-container">
+
+                        {products.map((product, i)=>{
+                            return(<PracticeAdviceCard 
+                                key = {product.img}
+                                product = {product}
+                            />);
+                        })}
+                    </div>
                 </div>
-                <div>
-                    <div></div>
-                    <div></div>
-                </div>
-            </div>
-        </section>
+            </section>
+        </>
     )
 }
-export default PracticeAdvice
 
-{/* <i class="fa-solid fa-star"></i> */}
-{/* <i class="fa-solid fa-heart"></i> */}
+export default PracticeAdvice

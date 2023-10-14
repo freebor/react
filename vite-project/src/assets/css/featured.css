@@ -14,29 +14,195 @@
     --light-blue: #2A7CC7;
     --gray-text: #737373;
     --top-product-color: rgba(45, 139, 192, 0.75);
+    --danger-color: #E74040;
+    --dark-text-color: #252B42;
+    --muted-color: #BDBDBD;
+    --green-color: #23856D;
+    --alert-color: #E77C40;
 
     /* -----gradient-colors----- */
     --gradient-green : #ABECD7;
     --gradient-blue : #97E9FA;
 }
+.hidden-lg{
+    display: none;
+}
 
-/* --------BestServices section's CSS-------------- */
-.PracticeAdvice-container{
+
+
+/* --------Practice advice section's CSS-------------- */
+.practiceAdvice-container{
     padding-block: 5rem;
     display: grid;
     gap: 5rem;
     width: 65.625rem;
 }
-.PracticeAdvice-header{
+.practiceAdvice-header{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.PracticeAdvice-header h6{
+.practiceAdvice-header h6{
     font-size: 0.875rem;
     color: var(--login-link-color);
 }
+.practiceAdvice-header h3{
+    font-size: 2.5rem;
+    color: var(--dark-top-header);
+}
+.practiceAdvice-card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
+}
+.practiceAdvice-card{
+    display: flex;
+    max-width: 31.3rem;
+}
+.practiceAdvice-card .img1{
+    background: url(../img/palm.png) no-repeat;
+}
+.practiceAdvice-card .img2{
+    background: url(../img/color-img.png) no-repeat;
+}
+.pa-card-image{
+    background-size: cover;
+    position: relative;
+    width: 23.062rem;
+    height: 25.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-inline: 1.25rem;
+    padding-block: 1.25rem 1.5rem;
+}
+.pa-card-image p{
+    font-weight: 700;
+    background-color: var(--danger-color);
+    color: #fff;
+    width: fit-content;
+    border-radius: .25rem;
+    padding-inline: .63rem;
+    font-size: 0.875rem;
+}
+.palm-text-icon{
+    gap: 0.63rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.palm-text-icon span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.63rem;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.pa-card-text{
+    display: flex;
+    flex-direction: column;
+    gap: 0.62rem;
+    padding-inline: 1.56rem;
+    padding-block: 1.56rem 2.19rem;
+}
+.pa-card-text h5{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.pa-card-text p{
+    font-size: 0.875rem;
+    color: var(--gray-text);
+}
+.pa-card-text-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pa-card-text-header a{
+    color: var(--login-link-color);
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+.pa-card-text-header p{
+    padding: 0.31rem 0.42rem;
+    border-radius: 1.1rem;
+    color: var(--login-link-color);
+    font-size: 0.75rem;
+    display: flex;
+    gap: 0.31rem;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-text-color);
+    font-weight: 400;
+}
+
+.download-icon{
+    display: flex;
+    gap: .62rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: var(--gray-text);
+}
+.pa-color{
+    display: flex;
+    gap: 0.31rem;
+}
+.pa-color span{
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+}
+.pa-color span:nth-child(1){
+    background-color: var(--login-link-color);
+}
+.pa-color span:nth-child(2){
+    background-color: var(--green-color);
+}
+.pa-color span:nth-child(3){
+    background-color: var(--alert-color);
+}
+.pa-color span:nth-child(4){
+    background-color: var(--dark-text-color);
+}
+
+.chart-icon{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+.chart-icon p{
+    color: var(--gray-text);
+    display: flex;
+    gap: 0.31rem;
+}
+.chart-icon-sm{
+    display: none;
+}
+.price-tag{
+    display: flex;
+    gap: 0.31rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--muted-color);
+}
+.price-tag span{
+    color: var(--green-color);
+}
+.pa-card-btn button{
+    border-radius: 2.3125rem;
+    background: none;
+    color: var(--login-link-color);
+    font-weight: 700;
+    display: flex;
+    gap: 0.31rem;
+    border: 1px solid var(--login-link-color);
+    padding-inline: 1.25rem;
+    padding-block: 0.62rem;
+}
 
 /* --------BestServices section's CSS-------------- */
 .best-services-container{
@@ -201,6 +367,71 @@
         font-weight: 700;
         font-size: 1.5rem;
     }
+
+
+    /* --------Practice advice section's CSS-------------- */
+    .hidden-lg{
+        display: block;
+    }
+    .hidden-sm{
+        display: none;
+    }
+    .chart-icon{
+        display: none;
+    }
+
+    .practiceAdvice-card-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;  
+        gap: 1.88rem;
+    }
+    .practiceAdvice-card{
+        display: block;
+        max-width: 20.625rem;
+        margin-inline: 1.25rem;
+    }
+    .practiceAdvice-card .img1{
+        background: url(../img/palm-replacement.png) no-repeat;
+        background-size: cover;
+    }
+    .practiceAdvice-card .img2{
+        background: url(../img/color-replacement.png) no-repeat;
+        background-size: cover;
+    }
+    .pa-card-image{
+        width: 100%;
+        height: 17.75rem;
+    }
+    .pa-card-text{
+        padding-inline: 1rem;
+    }
+    .palm-text-icon{
+        display: none;
+    }
+ 
+    .pa-card-text-header{
+        display: none;
+    }
+    .pa-card-btn button{
+        border-radius: 2.3125rem;
+        background: none;
+        border: none;
+        display: flex;
+        gap: 0.31rem;
+        padding-inline: 0rem;
+    }
+    .chart-icon-sm{
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.75rem;
+        font-weight: 400;
+    }
+    .chart-icon-sm p{
+        color: var(--gray-text);
+        display: flex;
+        gap: 0.31rem;
+        font-size: 0.75rem;
+    }
 }
 
 /* ---------small screen sizes----------- */
@@ -272,4 +503,68 @@
         gap: 1.88rem;
     }
     
+/* --------Practice advice section's CSS-------------- */
+    .hidden-lg{
+        display: block;
+    }
+    .hidden-sm{
+        display: none;
+    }
+    .chart-icon{
+        display: none;
+    }
+
+
+    .practiceAdvice-card-container{
+        display: grid;
+        grid-template-columns: 1fr;  
+        gap: 1.88rem;
+    }
+    .practiceAdvice-card{
+        display: block;
+        max-width: 20.625rem;
+        margin-inline: 1.25rem;
+    }
+    .practiceAdvice-card .img1{
+        background: url(../img/palm-replacement.png) no-repeat;
+        background-size: cover;
+    }
+    .practiceAdvice-card .img2{
+        background: url(../img/color-replacement.png) no-repeat;
+        background-size: cover;
+    }
+    .pa-card-image{
+        width: 100%;
+        height: 17.75rem;
+    }
+    .pa-card-text{
+        padding-inline: 1rem;
+    }
+    .palm-text-icon{
+        display: none;
+    }
+ 
+    .pa-card-text-header{
+        display: none;
+    }
+    .pa-card-btn button{
+        border-radius: 2.3125rem;
+        background: none;
+        border: none;
+        display: flex;
+        gap: 0.31rem;
+        padding-inline: 0rem;
+    }
+    .chart-icon-sm{
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.75rem;
+        font-weight: 400;
+    }
+    .chart-icon-sm p{
+        color: var(--gray-text);
+        display: flex;
+        gap: 0.31rem;
+        font-size: 0.75rem;
+    }
 }
