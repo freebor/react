@@ -28,11 +28,43 @@ import eyeIcon from "../../src/assets/img/eye.svg"
 import clockIcon from "../../src/assets/img/clock.svg"
 import chartWaveIcon from "../../src/assets/img/chart-wave.svg"
 import chartIcon from "../../src/assets/img/area-chart.svg"
-
+import breadCrumImg1 from "../assets/img/breadCrum-img1.jpg"
+import breadCrumImg2 from "../assets/img/breadCrum-img2.jpg"
+import breadCrumImg3 from "../assets/img/breadCrum-img3.jpg"
+import breadCrumImg4 from "../assets/img/breadCrum-img4.jpg"
+import breadCrumImg5 from "../assets/img/breadCrum-img5.jpg"
+import gridImg from "../assets/img/grid-view.svg"
+import listImg from "../assets/img/list-view.svg"
+import gridImg1 from "../assets/img/grid-img1.png"
+import gridImg2 from "../assets/img/grid-img2.png"
+import gridImg3 from "../assets/img/grid-img3.png"
+import gridImg4 from "../assets/img/grid-img4.png"
+import gridImg5 from "../assets/img/grid-img5.png"
+import gridImg6 from "../assets/img/grid-img6.png"
+import gridImg7 from "../assets/img/grid-img7.png"
+import gridImg8 from "../assets/img/grid-img8.png"
+import gridImg9 from "../assets/img/grid-img9.png"
+import gridImg10 from "../assets/img/grid-img10.png"
+import gridImg11 from "../assets/img/grid-img11.png"
+import gridImg12 from "../assets/img/grid-img12.png"
 
 
 
 export{
+    gridImg1,
+    gridImg2,
+    gridImg3,
+    gridImg4,
+    gridImg5,
+    gridImg6,
+    gridImg7,
+    gridImg8,
+    gridImg9,
+    gridImg10,
+    gridImg11,
+    gridImg12,
+    gridImg,
+    listImg,
     arrowRight,
     starIcon,
     downloadIcon,
@@ -62,7 +94,12 @@ export{
     BestSellingImg8,
     bookReader,
     carbonBook,
-    arrowGrowth
+    arrowGrowth,
+    breadCrumImg1,
+    breadCrumImg2,
+    breadCrumImg3,
+    breadCrumImg4,
+    breadCrumImg5
 }
 
 

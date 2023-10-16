@@ -9,7 +9,12 @@ const BestSellerCard = ({sellingCard})=>{
                 <h5>{header}</h5>
                 <p>{department}</p>
                 <p className="price-tag">{oldPrice} <span>{newPrice}</span></p>
-                {showEclipse && <div>12345</div>}
+                {showEclipse && <div className="eclipse">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>    
+                </div>}
             </div>
         </div>
     )

@@ -176,3 +176,145 @@ export const products = [
     }
 ]
 
+// SHop Card Array
+import {breadCrumImg1,breadCrumImg2,breadCrumImg3,breadCrumImg4,breadCrumImg5} from "./image"
+export const shopCard = [
+    {
+        image: breadCrumImg1,
+        text: "5 Items",
+        header: "CLOTHS",
+    },
+    {
+        image: breadCrumImg2,
+        text: "5 Items",
+        header: "CLOTHS"
+    },
+    {
+        image: breadCrumImg3,
+        text: "5 Items",
+        header: "CLOTHS"
+    },
+    {
+        image: breadCrumImg4,
+        text: "5 Items",
+        header: "CLOTHS"
+    },
+    {
+        image: breadCrumImg5,
+        text: "5 Items",
+        header: "CLOTHS"
+    }
+]
+
+import {gridImg1, gridImg2, gridImg3, gridImg4, gridImg5, gridImg6, gridImg7, gridImg8, gridImg9, gridImg10, gridImg11, gridImg12} from "./image"
+export const gridShopCard = [
+    {
+        id: "img1",
+        image: gridImg1,
+        header: "Graphic Design",
+        oldPrice: "$16.48",
+        newPrice: "$6.48",
+        department: "English Department",
+        showEclipse: true,
+    },
+    {
+        id: "img2",
+        image: gridImg2,
+        header: "Graphic Design",
+        oldPrice: "$16.48",
+        newPrice: "$6.48",
+        department: "English Department",
+        showEclipse: true,
+    },
+    {
+        id: "img3",
+        image: gridImg3,
+        header: "Graphic Design",
+        oldPrice: "$16.48",
+        newPrice: "$6.48",
+        department: "English Department",
+        showEclipse: true,
+    },
+    {
+        id: "img4",
+        image: gridImg4,
+        header: "Graphic Design",
+        oldPrice: "$16.48",
+        newPrice: "$6.48",
+        department: "English Department",
+        showEclipse: true,
+    },
+    {
+        id: "img5",
+        image: gridImg5,
+        header: "Graphic Design",
+        oldPrice: "$16.48",
+        newPrice: "$6.48",
+        department: "English Department",
+        showEclipse: true,
+    },
+    {
+        id: "img6",
+        image: gridImg6,
+        header: "Graphic Design",
+        oldPrice: "$16.48",
+        newPrice: "$6.48",
+        department: "English Department",
+        showEclipse: true,
+    },
+    {
+        id: "img7",
+        image: gridImg7,
+        header: "Graphic Design",
+        oldPrice: "$16.48",
+        newPrice: "$6.48",
+        department: "English Department",
+        showEclipse: true,
+    },
+    {
+        id: "img8",
+        image: gridImg8,
+        header: "Graphic Design",
+        oldPrice: "$16.48",
+        newPrice: "$6.48",
+        department: "English Department",
+        showEclipse: true,
+    },
+    {
+        id: "img9",
+        image: gridImg9,
+        header: "Graphic Design",
+        oldPrice: "$16.48",
+        newPrice: "$6.48",
+        department: "English Department",
+        showEclipse: true,
+    },
+    {
+        id: "img10",
+        image: gridImg10,
+        header: "Graphic Design",
+        oldPrice: "$16.48",
+        newPrice: "$6.48",
+        department: "English Department",
+        showEclipse: true,
+    },
+    {
+        id: "img11",
+        image: gridImg11,
+        header: "Graphic Design",
+        oldPrice: "$16.48",
+        newPrice: "$6.48",
+        department: "English Department",
+        showEclipse: true,
+    },
+    {
+        id: "img12",
+        image: gridImg12,
+        header: "Graphic Design",
+        oldPrice: "$16.48",
+        newPrice: "$6.48",
+        department: "English Department",
+        showEclipse: true,
+    },
+    
+]

@@ -305,7 +305,8 @@ ul{
   }
   .bottom-header{
     display: grid;
-    padding-inline: 2.19rem;
+    width: 100%;
+    padding-inline: 1.19rem;
     grid-template-columns: 1fr 1fr;
   }
   .nav-link{
@@ -341,14 +342,14 @@ ul{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 15rem;
+    height: 12rem;
     width: 100%;
-    /* background-color: #23A6F0; */
-    font-size: 1.875rem;
+    font-size: 1.2rem;
+    gap: 0.63rem;
   }
   .small-tabs li a{
     color: var(--gray-text);
-    font-weight: 700;
+    font-weight: 600;
   }
 
   
