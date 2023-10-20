@@ -23,6 +23,7 @@
     --grid-dropdown: #F9F9F9;
     --grid-border-color: #DDD;
     --bg-transparent: #00000027;
+    --breadCrum-bg: #FAFAFA;
 
     /* -----gradient-colors----- */
     --gradient-green : #ABECD7;
@@ -57,7 +58,7 @@
 
 /* --------Bread crums section--------- */
 .bread-crum{
-    background-color: var(--input-color);
+    background-color: var(--breadCrum-bg);
 }
 .bread-crum-header{
     display: flex;
@@ -194,6 +195,15 @@
 .hide-dropdown{
     display: none;
 }
+.rot-arrow{
+    transform: rotate(-180deg);
+    transition: 0.3s all;
+}
+.rot-arrow2{
+    transform: rotate(0deg);
+    transition: 0.3s all;
+}
+
 /* useState dropdown section */
 .grid-list-filter{
     width: 5.875rem;

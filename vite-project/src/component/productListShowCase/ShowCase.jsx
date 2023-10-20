@@ -2,10 +2,14 @@ import BreadCrum from "./shop-card/BreadCrum"
 import GridList from "./gridList-View/GridList"
 import GridCard from "./gridList-View/GridCard"
 import Pagination from "./gridList-View/Pagination"
+import ShopCardBanner from "./shop-card/shopCardBanner"
 const ShowCase = ()=>{
     return(
         <>
-            <BreadCrum />
+            <section className="bread-crum">
+                <BreadCrum />
+                <ShopCardBanner />
+            </section>
             <GridList/>
             <GridCard/>
             <Pagination />

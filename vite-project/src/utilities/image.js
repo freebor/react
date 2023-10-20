@@ -47,10 +47,18 @@ import gridImg9 from "../assets/img/grid-img9.png"
 import gridImg10 from "../assets/img/grid-img10.png"
 import gridImg11 from "../assets/img/grid-img11.png"
 import gridImg12 from "../assets/img/grid-img12.png"
-
-
+import starFilled from "../assets/img/sttar-filled.svg"
+import starBorder from "../assets/img/star-border.svg"
+import couch from "../assets/img/couch.jpg"
+import chair from "../assets/img/chair.jpg"
+import quickfoxImg from "../assets/img/quick-box.png"
 
 export{
+    quickfoxImg,
+    starFilled,
+    starBorder,
+    couch,
+    chair,
     gridImg1,
     gridImg2,
     gridImg3,

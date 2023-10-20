@@ -1,8 +1,9 @@
-import ProductListPage from "./pages/ProductListPages"
+// import ProductListPage from "./pages/ProductListPages"
+import ProductPage from "./pages/ProductPage"
 function App() {
   return (
     <>
-      <ProductListPage />
+      <ProductPage />
     </>
   )
 }

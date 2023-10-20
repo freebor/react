@@ -19,7 +19,7 @@ const GridList =()=>{
                     <div className="grid-list-dropdown-hold">
                         <button className="grid-list-dropdown" onClick={() => setDropdown(!dropdown)}>
                             <span>Popularity</span>
-                            <i className="fa-solid fa-chevron-down"></i>
+                            <i className={dropdown ? "fa-solid fa-chevron-down rot-arrow" : "fa-solid fa-chevron-down rot-arrow2"}></i>
                             <ul className={dropdown ? "show-dropdown" : "hide-dropdown"}>
                                 <li>hello</li>
                                 <li>hello</li>

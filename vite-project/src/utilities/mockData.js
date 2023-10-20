@@ -39,7 +39,7 @@ export const footerLinks = [
 ]
 
 // bestService Array
-import {bookReader, carbonBook, arrowGrowth} from "./image"
+import {bookReader, carbonBook, arrowGrowth, quickfoxImg} from "./image"
 export const bestService = [
     {
         content: "Get your best looking smile now!",
@@ -206,6 +206,7 @@ export const shopCard = [
     }
 ]
 
+// Grid shopCard
 import {gridImg1, gridImg2, gridImg3, gridImg4, gridImg5, gridImg6, gridImg7, gridImg8, gridImg9, gridImg10, gridImg11, gridImg12} from "./image"
 export const gridShopCard = [
     {
@@ -318,3 +319,63 @@ export const gridShopCard = [
     },
     
 ]
+
+// UseEffect card content 
+export const UseEffectCards = {
+
+    cardTitle: "Floating Phone",
+    price: "$1,139.33",
+    text: "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
+    starText: "10 Reviews",
+}
+
+// quick Fox content 
+export const QuickFoxArray = {
+    header: "the quick fox jumps over",
+    quickText:[
+        {
+            id: 1,
+            text: "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met."
+        },
+        {
+            id: 2,
+            text: "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met."
+        },
+        {
+            id: 3,
+            text: "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met."
+        },
+    ],
+    quickList1: [
+        {
+            id: 1,
+            list: "the quick fox jumps over the lazy dog"
+        },
+        {
+            id: 2,
+            list: "the quick fox jumps over the lazy dog"
+        },
+        {
+            id: 3,
+            list: "the quick fox jumps over the lazy dog"
+        },
+        {
+            id: 4,
+            list: "the quick fox jumps over the lazy dog"
+        },
+    ],
+    quickList2: [
+        {
+            id: 1,
+            list: "the quick fox jumps over the lazy dog"
+        },
+        {
+            id: 2,
+            list: "the quick fox jumps over the lazy dog"
+        },
+        {
+            id: 3,
+            list: "the quick fox jumps over the lazy dog"
+        },
+    ]
+}
