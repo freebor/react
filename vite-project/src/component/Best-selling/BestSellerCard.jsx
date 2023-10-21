@@ -1,7 +1,8 @@
-const BestSellerCard = ({sellingCard})=>{
+import PropTypes from "prop-types"
+const BestSellerCard = ({sellingCard, bgProduct})=>{
     const {image, header, oldPrice, newPrice, department, showEclipse} = sellingCard;
     return(
-        <div className="best-selling">
+        <div className={`best-selling ${bgProduct ?? ""}`}>
             <div className="best-selling-image">
                 <img src={image} alt="" />
             </div>
@@ -20,3 +21,7 @@ const BestSellerCard = ({sellingCard})=>{
     )
 }
 export default BestSellerCard
+BestSellerCard.propTypes = {
+    sellingCard: PropTypes.string,  
+    bgProduct: PropTypes.string
+}

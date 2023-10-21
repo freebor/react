@@ -1,7 +1,8 @@
 import {arrowRight, starIcon, downloadIcon, heartIcon, cartIcon, eyeIcon, clockIcon, chartWaveIcon, chartIcon} from "../../utilities/image"
+import PropTypes from "prop-types"
 
 const PracticeAdviceCard =({product})=>{
-    const {department, title, desc, sales, oldPrice, newPrice, time, lessons, progress, date, link, img} = product;
+    const {department, title, desc, sales, oldPrice, newPrice, time, lessons, progress, date, img} = product;
     return(
         <div className="practiceAdvice-card">
             <div className="pa-card-image img1" style={{backgroundImage: `url(${img})`}}>
@@ -46,3 +47,6 @@ const PracticeAdviceCard =({product})=>{
     )
 }
 export default PracticeAdviceCard
+PracticeAdviceCard.propTypes = {
+    product : PropTypes.string
+}

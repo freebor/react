@@ -1,3 +1,4 @@
+import PropTypes from "prop-types"
 const BreadCrum = ({display})=>{
     return(
         <>
@@ -17,3 +18,6 @@ const BreadCrum = ({display})=>{
     )
 }
 export default BreadCrum
+BreadCrum.propTypes ={
+    display: PropTypes.string
+}

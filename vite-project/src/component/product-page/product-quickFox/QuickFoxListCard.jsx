@@ -15,7 +15,7 @@ const QuickFoxListCard = ()=>{
             </div>
             <div className="quickList">
                 <h5>{header}</h5>
-                {QuickFoxArray.quickList2.map((list)=>{
+                {QuickFoxArray.quickList1.slice(0, 3).map((list)=>{
                     return(
                         <ul>
                             <li key={list.id}><i class="fa-solid fa-chevron-right"></i>{list.list}</li>

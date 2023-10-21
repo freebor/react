@@ -1,3 +1,4 @@
+import PropTypes from "prop-types"
 const FooterCard = ({footerProp})=>{
     const{footerHeader}= footerProp;
     return(
@@ -15,3 +16,6 @@ const FooterCard = ({footerProp})=>{
     )
 }
 export default FooterCard
+FooterCard.propTypes = {
+    footerProp : PropTypes.string
+}

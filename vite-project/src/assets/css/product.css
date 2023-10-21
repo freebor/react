@@ -37,6 +37,9 @@
 .hide-breadCrum{
     display: none;
 }
+.bg-bestProduct{
+    background-color: #fff;
+}
 
 /* --------useEffect card section------- */
 .productUseEffect-card{
@@ -256,4 +259,171 @@
     display: flex;
     align-items: center;
     gap: 1.25rem;
+}
+
+/* Best Product Seller section  */
+.best-product-wrap{
+    width: 70.25rem;
+    padding-inline: 2.34rem;
+    padding-block: 3rem;
+}
+.best-product-header h2{
+    font-size: 1.5rem;
+}
+.product-line{
+    border-bottom: 2px solid var(--quickFox-border); 
+    margin-block: 1rem 1.5rem;
+}
+.best-product-map{
+    display: flex;
+    gap: 1.88rem;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/* ---------medium screen-sizes--------- */
+@media screen and (max-width: 890px) and (min-width: 720px){
+    /* --------useEffect card section------- */
+    .productUseEffect-card{
+        display: flex;
+        flex-direction: column;
+        width: 90%;  
+    }
+    .product-card-image img{
+        width: 100%;
+        height: 28.125rem;
+    }    
+
+    /* Quick fox Jump section  */
+    .quick-fox-header{
+        width: 100%;  
+    }
+
+    /* Quick Fox Card Section  */
+    .quick-fox-card{
+        flex-direction: column;
+        align-items: center;
+        gap: 3.88rem;
+        width: 90%;
+    }
+    .quickfoxImg{
+        width: 80%;
+        height: 32.875rem;
+    }
+    .quickfoxImg img{
+        width: 100%;
+        height: 100%;
+    }
+    .quickfoxText{
+        width: 80%;
+    }
+    .quickfoxText h5{
+        font-size: 2rem;
+    }
+    .quick-text-map{
+        font-size: 1.3rem;
+    }
+    
+    .quickfoxList{
+        display: flex;
+        width: 80%;
+    }
+    .quickList h5{
+        font-size: 2rem;
+    }
+    .quickList ul{
+        font-size: 1.3rem;
+    }
+
+    /* Best Product Seller section  */
+    .best-product-wrap{
+        width: 90%;
+        padding-inline: 1rem;
+    }
+    .best-product-map{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* ---------small screen sizes----------- */
+@media screen and (max-width: 710px){
+    /* --------useEffect card section------- */
+    .productUseEffect-card{
+        display: flex;
+        flex-direction: column;
+        width: 90%;  
+    }
+    .product-card-image img{
+        width: 100%;
+        height: 21.125rem;
+    }
+    .productUseEffect-card-text{
+        display: flex;
+        flex-direction: column;
+        padding-inline: 0.85rem 1.1rem;
+        padding-block: 0.69rem 1.5rem;
+    }
+
+    .cardBtn{
+        flex-wrap: wrap;
+    }
+    /* Quick fox Jump section  */
+    .quick-fox-header{
+        width: 100%;  
+        flex-wrap: wrap;
+    }
+    .quick-fox-header p{
+        padding: 1rem 0.8rem;
+        font-size: 0.875rem;
+        font-weight: 700;
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    /* Quick Fox Card Section  */
+    .quick-fox-card{
+        flex-direction: column;
+        align-items: center;
+        gap: 3.88rem;
+        width: 90%;
+    }
+    .quickfoxImg{
+        width: 90%;
+        height: 19.875rem;
+    }
+    .quickfoxImg img{
+        width: 100%;
+        height: 100%;
+    }
+    .quickfoxText{
+        width: 90%;
+    }
+    .quickfoxText h5{
+        font-size: 1.5rem;
+    }
+    .quick-text-map{
+        font-size: 0.875rem;
+    }
+    
+    .quickfoxList{
+        display: flex;
+        width: 90%;
+    }
+    .quickList h5{
+        font-size: 1.5rem;
+    }
+    .quickList ul{
+        font-size: 0.875rem;
+    }
+
+    /* Best Product Seller section  */
+    .best-product-wrap{
+        width: 90%;
+        padding-inline: 0rem;
+    }
+    .best-product-map{
+        display: flex;
+        justify-content: center;
+    }
 }

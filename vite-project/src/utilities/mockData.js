@@ -38,6 +38,7 @@ export const footerLinks = [
     }
 ]
 
+import { array } from "prop-types"
 // bestService Array
 import {bookReader, carbonBook, arrowGrowth, quickfoxImg} from "./image"
 export const bestService = [
@@ -216,7 +217,6 @@ export const gridShopCard = [
         oldPrice: "$16.48",
         newPrice: "$6.48",
         department: "English Department",
-        showEclipse: true,
     },
     {
         id: "img2",
@@ -364,18 +364,75 @@ export const QuickFoxArray = {
             list: "the quick fox jumps over the lazy dog"
         },
     ],
-    quickList2: [
-        {
-            id: 1,
-            list: "the quick fox jumps over the lazy dog"
-        },
-        {
-            id: 2,
-            list: "the quick fox jumps over the lazy dog"
-        },
-        {
-            id: 3,
-            list: "the quick fox jumps over the lazy dog"
-        },
-    ]
+
 }
+
+// Best Product array
+import {productImg1, productImg2, productImg3, productImg4, productImg5, productImg6, productImg7, productImg8} from "./image"
+export const bestProductArray = [
+    {
+        id: "img1",
+        image: productImg1,
+        header: "Graphic Design",
+        oldPrice: "$16.48",
+        newPrice: "$6.48",
+        department: "English Department",
+    },
+    {
+        id: "img2",
+        image: productImg2,
+        header: "Graphic Design",
+        oldPrice: "$16.48",
+        newPrice: "$6.48",
+        department: "English Department",
+    },
+    {
+        id: "img3",
+        image: productImg3,
+        header: "Graphic Design",
+        oldPrice: "$16.48",
+        newPrice: "$6.48",
+        department: "English Department",
+    },
+    {
+        id: "img4",
+        image: productImg4,
+        header: "Graphic Design",
+        oldPrice: "$16.48",
+        newPrice: "$6.48",
+        department: "English Department",
+    },
+    {
+        id: "img5",
+        image: productImg5,
+        header: "Graphic Design",
+        oldPrice: "$16.48",
+        newPrice: "$6.48",
+        department: "English Department",
+    },
+    {
+        id: "img6",
+        image: productImg6,
+        header: "Graphic Design",
+        oldPrice: "$16.48",
+        newPrice: "$6.48",
+        department: "English Department",
+    },
+    {
+        id: "img7",
+        image: productImg7,
+        header: "Graphic Design",
+        oldPrice: "$16.48",
+        newPrice: "$6.48",
+        department: "English Department",
+    },
+    {
+        id: "img8",
+        image: productImg8,
+        header: "Graphic Design",
+        oldPrice: "$16.48",
+        newPrice: "$6.48",
+        department: "English Department",
+    },
+    
+];

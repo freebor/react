@@ -52,8 +52,24 @@ import starBorder from "../assets/img/star-border.svg"
 import couch from "../assets/img/couch.jpg"
 import chair from "../assets/img/chair.jpg"
 import quickfoxImg from "../assets/img/quick-box.png"
+import productImg1 from "../assets/img/product-img1.png"
+import productImg2 from "../assets/img/product-img2.png"
+import productImg3 from "../assets/img/product-img3.png"
+import productImg4 from "../assets/img/product-img4.png"
+import productImg5 from "../assets/img/product-img5.png"
+import productImg6 from "../assets/img/product-img6.png"
+import productImg7 from "../assets/img/product-img7.png"
+import productImg8 from "../assets/img/product-img8.png"
 
 export{
+    productImg1,
+    productImg2,
+    productImg3,
+    productImg4, 
+    productImg5,
+    productImg6,
+    productImg7,
+    productImg8,
     quickfoxImg,
     starFilled,
     starBorder,

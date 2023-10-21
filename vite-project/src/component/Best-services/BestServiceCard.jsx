@@ -1,3 +1,4 @@
+import PropTypes from "prop-types"
 const BestServiceCard = ({service})=>{
     const {content, header, img} = service;
     return(
@@ -9,3 +10,6 @@ const BestServiceCard = ({service})=>{
     )
 }
 export default BestServiceCard
+BestServiceCard.propTypes = {
+    service : PropTypes.string 
+}

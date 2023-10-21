@@ -1,4 +1,4 @@
-
+import PropTypes from "prop-types"
 const TopHeader = ({bgColor})=>{
     return (
         <div className={`top-header ${bgColor ?? ""}`}>
@@ -27,3 +27,6 @@ const TopHeader = ({bgColor})=>{
 }
 
 export default TopHeader
+TopHeader.propTypes= {
+    bgColor: PropTypes.string
+}
