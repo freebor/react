@@ -60,8 +60,10 @@ import productImg5 from "../assets/img/product-img5.png"
 import productImg6 from "../assets/img/product-img6.png"
 import productImg7 from "../assets/img/product-img7.png"
 import productImg8 from "../assets/img/product-img8.png"
+import aboutBanner from "../assets/img/aboutBanner.png"
 
 export{
+    aboutBanner,
     productImg1,
     productImg2,
     productImg3,

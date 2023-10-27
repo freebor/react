@@ -1,3 +1,12 @@
+// Header array 
+export const bottomHeader = [
+    {href: "#", tabs: "Home"},
+    {href: "#", tabs: "About"},
+    {href: "#", tabs: "Blog"},
+    {href: "#", tabs: "Contact"},
+    {href: "#", tabs: "Pages"}
+]
+
 // footer Array
 export const footerLinks = [
     {
@@ -217,6 +226,7 @@ export const gridShopCard = [
         oldPrice: "$16.48",
         newPrice: "$6.48",
         department: "English Department",
+        showEclipse: true,
     },
     {
         id: "img2",

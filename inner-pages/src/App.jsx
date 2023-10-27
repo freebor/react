@@ -1,8 +1,9 @@
-import About from "./pages/inner-pages/about"
+import AboutPages from "./pages/AboutPage"
+
 function App() {
   return (
     <>
-      <About />
+      <AboutPages />
     </>
   )
 }

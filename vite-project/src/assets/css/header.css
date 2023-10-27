@@ -342,10 +342,11 @@ ul{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 12rem;
+    /* height: 12rem; */
+    padding-block: 4rem;
     width: 100%;
-    font-size: 1.2rem;
-    gap: 0.63rem;
+    font-size: 1.875rem;
+    gap: 1.88rem;
   }
   .small-tabs li a{
     color: var(--gray-text);
