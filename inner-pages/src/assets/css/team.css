@@ -144,6 +144,53 @@
     height: initial;
 }
 
+/* Working with us section  */
+.work-wrap{
+    padding-block: 3.75rem 4.5rem;
+    background: var(--light-blue);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.work-content{
+    width: 100%;
+    background: var(--light-blue);
+    width: 17rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.work-content h5{
+    font-weight: 700;
+    font-size: 1rem;
+}
+.work-content h2{
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.work-content p{
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+.work-content button{
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: #fff;
+    padding: 0.94rem 2.5rem;
+    width: fit-content;
+    border-radius: 0.35rem;
+    background: none;
+    border: 1px solid #FAFAFA;
+    margin: auto;
+
+}
+
+.work-img{
+    display: none;
+}
+
 
 @media screen and (min-width: 700px) and (max-width: 939px){
     .team-wrap{
@@ -231,6 +278,9 @@
     .team-text h2{
         width: 80%;
     }
+    .comText p{
+        width: 30%;
+    }
     /* ----------Client section------------- */
     .company-wrap{
         width: 100%;
@@ -248,10 +298,50 @@
     .client img{
         height: 2.125rem;
     }
+
+    /* Working with us section  */
+    .work-wrap2{
+        display: flex;
+    }
+    .work-wrap{
+        padding-block: 0rem 0rem;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+    }
+    .work-content{
+        width: 27.327rem;
+        gap: 1.5rem;
+        align-items: start;
+        text-align: left;
+        height: fit-content;
+    }
+    .work-content button{
+        margin: 0;
+    }
+    .work-img{
+        display: block;
+        width: 40%;
+        height: 30rem;
+    }
+    .work-img img{
+        width: 100%;
+        height: 100%;
+    }
 }
 
 @media screen and (min-width: 1100px){
     .team-container{
         width: inherit;
+    }
+    .work-wrap{
+        width: 90rem;
+    }
+    .work-img{
+        display: block;
+        width: 46.875rem;
+        height: 40rem;
     }
 }

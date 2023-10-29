@@ -91,3 +91,12 @@ export const companyContent ={
   companyHeader: "Big Companies Are Here",
   companyText: "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics "
 }
+
+import {weird} from "./image"
+export const workContent = {
+  workH5: "WORK WITH US",
+  workH2: "Now Let’s grow Yours",
+  workText: "The gradual accumulation of information about atomic and small-scale behavior during the first quarter of the 20th ",
+  workBtn: "Button",
+  workImage: weird
+}

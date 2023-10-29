@@ -5,6 +5,7 @@ import Video from "../component/Video"
 import Team from "../component/team/Team"
 import Companies from "../component/client/Companies"
 import Footer from "../component/footer/Footer"
+import Work from "../component/Work"
 const AboutPages =()=>{
     return(
         <>
@@ -14,6 +15,7 @@ const AboutPages =()=>{
             <Video />
             <Team />
             <Companies />
+            <Work />
             <Footer />
         </>
     )

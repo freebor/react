@@ -3,7 +3,7 @@ import FooterCard from "./FooterCard"
 import {footerLinks} from "../../utilities/mockData"
 const Footer =() =>{
     return(
-        <section className="featured-container-wrap f-dir">
+        <section className="container f-dir">
             <Bandage />
             <div className="footer">
                 <div className="footer-links-wrap">
