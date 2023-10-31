@@ -61,8 +61,19 @@ import productImg6 from "../assets/img/product-img6.png"
 import productImg7 from "../assets/img/product-img7.png"
 import productImg8 from "../assets/img/product-img8.png"
 import aboutBanner from "../assets/img/aboutBanner.png"
+import video from "../assets/img/video.png"
+import user1 from "../assets/img/user1.png"
+import user2 from "../assets/img/user2.png"
+import user3 from "../assets/img/user3.png"
+import weird from "../assets/img/weird.png"
+
 
 export{
+    video,
+    user1,
+    user2,
+    user3,
+    weird,
     aboutBanner,
     productImg1,
     productImg2,

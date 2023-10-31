@@ -17,5 +17,5 @@ const FooterCard = ({footerProp})=>{
 }
 export default FooterCard
 FooterCard.propTypes = {
-    footerProp : PropTypes.string
+    footerProp : PropTypes.object
 }

@@ -2,7 +2,7 @@ import { aboutBanner } from "../../utilities/image"
 
 const AboutBanner =() =>{
     return(
-        <section className="featured-container-wrap">
+        <section className="container">
             <div className="about-banner-wrap">
                 <div className="about-text">
                     <h2>ABOUT US</h2>

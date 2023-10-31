@@ -1,0 +1,44 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+
+    --dark-top-header: #252B42;
+    --login-link-color: #23A6F0;
+    --light-blue: #2A7CC7;
+    --gray-text: #737373;
+    --top-product-color: rgba(45, 139, 192, 0.75);
+    --danger-color: #E74040;
+    --dark-text-color: #252B42;
+    --muted-color: #BDBDBD;
+    --green-color: #23856D;
+    --alert-color: #E77C40;
+    --input-color: #E6E6E6;
+    --grid-dropdown: #F9F9F9;
+    --grid-border-color: #DDD;
+    --bg-transparent: #00000027;
+    --breadCrum-bg: #FAFAFA;
+    --bg-small-color: #F6F6F6;
+
+    /* -----gradient-colors----- */
+    --gradient-green : #ABECD7;
+    --gradient-blue : #97E9FA;
+}
+
+
+.bg-gray{
+    background: var(--bg-small-color);
+}
+.hide-link{
+    display: none;
+}
+.inner-header{
+    padding-inline: 8.5rem;
+    /* width: 65.625rem; */
+}

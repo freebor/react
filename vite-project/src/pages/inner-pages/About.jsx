@@ -1,15 +1,16 @@
 import ShowAbout from "../../component/about-section/ShowAbout"
-import TopHeader from "../../component/Header/BottomHeader"
-import Client from "../../component/Client"
+import BottomHeader from "../../component/Header/BottomHeader"
 import Footer from "../../component/footer/Footer"
 const About =()=>{
     return(
         <>
-            <TopHeader 
+            <BottomHeader 
+                innerWidth = {'inner-header'}
                 BgsmallColor={'bg-gray'}
+                showLoginButton = {true}
+                hideLink = {'hide-link'}
             />
             <ShowAbout />
-            <Client />
             <Footer />
         </>
     )
