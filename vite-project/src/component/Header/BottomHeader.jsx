@@ -2,12 +2,14 @@ import { useState } from "react"
 import {harmburger, cart, search} from "../../utilities/image"
 import { bottomHeader } from "../../utilities/mockData"
 import { FaArrowRight } from 'react-icons/fa'
+import { AiOutlineRight } from 'react-icons/ai'
+import { HOME } from "../routes"
 
-const BottomHeader = ({BgsmallColor, showLoginButton, hideLink, innerWidth})=>{
+const BottomHeader = ({BgsmallColor, showLoginButton, hideLink, showSamplePrice})=>{
     const [navClicked, setNavNotClicked] = useState(false)
     return (
         <>
-            <div className={`bottom-header ${innerWidth}`}>
+            <div className="bottom-header">
                 <div className="nav-brand df">
                     <p className="logo">Bandage</p>
                 </div>
@@ -55,6 +57,15 @@ const BottomHeader = ({BgsmallColor, showLoginButton, hideLink, innerWidth})=>{
                     )
                 })}
             </ul>
+            {showSamplePrice && <div className="container pricing-wrap">
+                <h5>PRICING</h5>
+                <h2>Sample Pricing</h2>
+                <span className="price-tabs">
+                    <a href={HOME}>Home</a>
+                    <AiOutlineRight className="arrow-l"/>
+                    <a href="#">Pricing</a>
+                </span>
+            </div>}
         </>
     )
 }

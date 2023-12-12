@@ -5,7 +5,6 @@ const About =()=>{
     return(
         <>
             <BottomHeader 
-                innerWidth = {'inner-header'}
                 BgsmallColor={'bg-gray'}
                 showLoginButton = {true}
                 hideLink = {'hide-link'}

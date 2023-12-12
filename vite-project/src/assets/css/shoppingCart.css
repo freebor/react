@@ -11,6 +11,7 @@
 
     --dark-top-header: #252B42;
     --login-link-color: #23A6F0;
+    --faded-blue-color: #B2E3FF;
     --light-blue: #2A7CC7;
     --gray-text: #737373;
     --top-product-color: rgba(45, 139, 192, 0.75);
@@ -25,23 +26,13 @@
     --bg-transparent: #00000027;
     --breadCrum-bg: #FAFAFA;
     --bg-small-color: #F6F6F6;
+    --muted-login-color: #8EC2F2;
+    --default-twitter-color: #55ACEE;
+    --default-facebook-color: #395185;
+    --default-instagram-color: #55ACEE;
+    --default-linkedIn-color: #0A66C2;
 
     /* -----gradient-colors----- */
     --gradient-green : #ABECD7;
     --gradient-blue : #97E9FA;
-}
-
-
-.bg-gray{
-    background: var(--bg-small-color);
-}
-.hide-link{
-    display: none;
-}
-.inner-header{
-    padding-inline: 8.5rem;
-    /* width: 65.625rem; */
-}
-.bread-crum-bg{
-    background: var(--breadCrum-bg);
 }

@@ -7,7 +7,9 @@ const ShowProduct =()=>{
         <>
             <section className="bread-crum">
                 <BreadCrum 
-                    display={'hide-breadCrum'}
+                    currentText= 'product'
+                    display = {false}
+
                 />
                 <ProductUseEffect />
             </section>

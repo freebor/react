@@ -1,16 +1,17 @@
+import { classNames } from "../../../utilities/function"
 import PropTypes from "prop-types"
-const BreadCrum = ({display})=>{
+const BreadCrum = ({display, currentLocation, currentText, currentHeader})=>{
     return(
         <>
-            <div className="featured-container-wrap">
+            <div className="featured-container-wrap px-10">
                 <div className=" bread-crum-header">
-                    <div className={`bread-crum-logo ${display ?? ''}`}>
-                        <h1>Shop</h1>
+                    <div className={classNames (display ? "block" : 'hidden', "bread-crum-logo")}>
+                        <h1 className="hidden md:flex">{currentHeader}</h1>
                     </div>
                     <div className="bread-crum-nav">
                         <a href="#">Home</a>
                         <i className="fa-solid fa-chevron-right"></i>
-                        <a href="#">Shop</a>
+                        <a href="#" className={classNames (currentLocation ? currentLocation : '')}>{currentText}</a>
                     </div>
                 </div>
             </div>

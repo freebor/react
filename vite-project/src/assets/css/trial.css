@@ -1,0 +1,148 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+
+    --dark-top-header: #252B42;
+    --login-link-color: #23A6F0;
+    --faded-blue-color: #B2E3FF;
+    --light-blue: #2A7CC7;
+    --gray-text: #737373;
+    --top-product-color: rgba(45, 139, 192, 0.75);
+    --danger-color: #E74040;
+    --dark-text-color: #252B42;
+    --muted-color: #BDBDBD;
+    --green-color: #23856D;
+    --alert-color: #E77C40;
+    --input-color: #E6E6E6;
+    --grid-dropdown: #F9F9F9;
+    --grid-border-color: #DDD;
+    --bg-transparent: #00000027;
+    --breadCrum-bg: #FAFAFA;
+    --bg-small-color: #F6F6F6;
+    --muted-login-color: #8EC2F2;
+    --default-twitter-color: #55ACEE;
+    --default-facebook-color: #395185;
+    --default-instagram-color: #55ACEE;
+    --default-linkedIn-color: #0A66C2;
+
+    /* -----gradient-colors----- */
+    --gradient-green : #ABECD7;
+    --gradient-blue : #97E9FA;
+}
+
+.trial{
+    padding-block: 7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.88rem;
+}
+.trial .team-text{
+    padding-block: 0rem;
+}
+.trial .team-text h2{
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+}
+.priceCard-social{
+    display: flex;
+    gap: 2.2rem;
+}
+.priceSocial{
+    width: 1.875rem;
+    height: 1.875rem;
+}
+
+.priceSocial:nth-child(1){
+    color: var(--default-twitter-color);
+}
+.priceSocial:nth-child(2){
+    color: var(--default-facebook-color);
+}
+.priceSocial:nth-child(4){
+    color: var(--default-linkedIn-color);
+}
+
+/* ---------Pricing FAQS section----------- */
+.faqs-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.faqs-list{
+    display: flex;
+    gap: 1.25rem;
+    padding: 2rem 1.5rem;
+    width: 22rem;
+}
+.faqs-arrow{
+    color: var(--login-link-color);
+    width: 0.5625rem;
+    height: 1rem;
+    display: none;
+}
+.faqs-content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.faqs-content p:nth-child(1){
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--dark-text-color);
+}
+.faqs-content p:nth-child(2){
+    font-size: 1rem;
+    color: var(--dark-text-color);
+    font-weight: 400;
+}
+
+@media screen and (min-width: 700px){
+    .faqs-content{
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+    }
+}
+/* ---------medium large screen size------- */
+@media screen and (min-width: 940px){
+    .trial .team-text h2{
+        display: flex;
+        flex-direction: row;
+        gap: 0.7rem;
+        width: 34rem;
+    }
+    .trial .team-text p{
+        width: 25rem;
+    }
+
+    /* ---------Pricing FAQS section----------- */
+    .faqs-container{
+        display: flex;
+        flex-wrap: wrap;
+        padding-block: 5rem;
+        justify-content: center;
+        gap: 1.88rem;
+    }
+    .faqs-list{
+        width: 29rem;
+    }
+    .faqs-arrow{
+        color: var(--login-link-color);
+        width: 0.5625rem;
+        height: 1rem;
+        display: block;
+    }
+}
+
+/* ---------Large screen size------- */
+@media screen and (min-width: 1100px){
+
+}

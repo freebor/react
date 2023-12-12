@@ -77,6 +77,7 @@ export const bestSellingArray = [
         oldPrice: "$16.48",
         newPrice: "$6.48",
         department: "English Department",
+        quantity: 1,
     },
     {
         id: "img2",
@@ -85,6 +86,7 @@ export const bestSellingArray = [
         oldPrice: "$16.48",
         newPrice: "$6.48",
         department: "English Department",
+        quantity: 1,
     },
     {
         id: "img3",
@@ -93,6 +95,7 @@ export const bestSellingArray = [
         oldPrice: "$16.48",
         newPrice: "$6.48",
         department: "English Department",
+        quantity: 1,
     },
     {
         id: "img4",
@@ -101,6 +104,7 @@ export const bestSellingArray = [
         oldPrice: "$16.48",
         newPrice: "$6.48",
         department: "English Department",
+        quantity: 1,
     },
     {
         id: "img5",
@@ -109,6 +113,7 @@ export const bestSellingArray = [
         oldPrice: "$16.48",
         newPrice: "$6.48",
         department: "English Department",
+        quantity: 1,
     },
     {
         id: "img6",
@@ -117,6 +122,7 @@ export const bestSellingArray = [
         oldPrice: "$16.48",
         newPrice: "$6.48",
         department: "English Department",
+        quantity: 1,
     },
     {
         id: "img7",
@@ -125,6 +131,7 @@ export const bestSellingArray = [
         oldPrice: "$16.48",
         newPrice: "$6.48",
         department: "English Department",
+        quantity: 1,
     },
     {
         id: "img8",
@@ -133,6 +140,7 @@ export const bestSellingArray = [
         oldPrice: "$16.48",
         newPrice: "$6.48",
         department: "English Department",
+        quantity: 1,
     },
     {
         id: "img9",
@@ -141,6 +149,7 @@ export const bestSellingArray = [
         oldPrice: "$16.48",
         newPrice: "$6.48",
         department: "English Department",
+        quantity: 1,
     },
     {
         id: "img10",
@@ -149,6 +158,7 @@ export const bestSellingArray = [
         oldPrice: "$16.48",
         newPrice: "$6.48",
         department: "English Department",
+        quantity: 1,
     },
 ]
 
@@ -225,6 +235,7 @@ export const gridShopCard = [
         oldPrice: "$16.48",
         newPrice: "$6.48",
         department: "English Department",
+        quantity: 1,
         showEclipse: true,
     },
     {
@@ -234,6 +245,7 @@ export const gridShopCard = [
         oldPrice: "$16.48",
         newPrice: "$6.48",
         department: "English Department",
+        quantity: 1,
         showEclipse: true,
     },
     {
@@ -243,6 +255,7 @@ export const gridShopCard = [
         oldPrice: "$16.48",
         newPrice: "$6.48",
         department: "English Department",
+        quantity: 1,
         showEclipse: true,
     },
     {
@@ -252,6 +265,7 @@ export const gridShopCard = [
         oldPrice: "$16.48",
         newPrice: "$6.48",
         department: "English Department",
+        quantity: 1,
         showEclipse: true,
     },
     {
@@ -261,6 +275,7 @@ export const gridShopCard = [
         oldPrice: "$16.48",
         newPrice: "$6.48",
         department: "English Department",
+        quantity: 1,
         showEclipse: true,
     },
     {
@@ -270,6 +285,7 @@ export const gridShopCard = [
         oldPrice: "$16.48",
         newPrice: "$6.48",
         department: "English Department",
+        quantity: 1,
         showEclipse: true,
     },
     {
@@ -279,6 +295,7 @@ export const gridShopCard = [
         oldPrice: "$16.48",
         newPrice: "$6.48",
         department: "English Department",
+        quantity: 1,
         showEclipse: true,
     },
     {
@@ -288,6 +305,7 @@ export const gridShopCard = [
         oldPrice: "$16.48",
         newPrice: "$6.48",
         department: "English Department",
+        quantity: 1,
         showEclipse: true,
     },
     {
@@ -297,6 +315,7 @@ export const gridShopCard = [
         oldPrice: "$16.48",
         newPrice: "$6.48",
         department: "English Department",
+        quantity: 1,
         showEclipse: true,
     },
     {
@@ -306,6 +325,7 @@ export const gridShopCard = [
         oldPrice: "$16.48",
         newPrice: "$6.48",
         department: "English Department",
+        quantity: 1,
         showEclipse: true,
     },
     {
@@ -315,6 +335,7 @@ export const gridShopCard = [
         oldPrice: "$16.48",
         newPrice: "$6.48",
         department: "English Department",
+        quantity: 1,
         showEclipse: true,
     },
     {
@@ -324,6 +345,7 @@ export const gridShopCard = [
         oldPrice: "$16.48",
         newPrice: "$6.48",
         department: "English Department",
+        quantity: 1,
         showEclipse: true,
     },
     
@@ -486,6 +508,11 @@ export const teamArray = {
     ]
 }
 
+export const pricingContent = {
+    priceHeader: "Pricing",
+    priceText: "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics ",
+}
+
 export const companyContent ={
   companyHeader: "Big Companies Are Here",
   companyText: "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics "
@@ -498,4 +525,126 @@ export const workContent = {
   workText: "The gradual accumulation of information about atomic and small-scale behavior during the first quarter of the 20th ",
   workBtn: "Button",
   workImage: weird
+}
+
+// array from priceCard section 
+export const priceCardArray = [
+    {
+        cardHeader: "FREE",
+        Cardtext: "Organize across all apps by hand",
+        CardAmount: 0,
+        cardList:[
+        {
+            list1: "Unlimited product updates",
+            isCompleted: true,
+        },
+        {
+            list1: "Unlimited product updates",
+            isCompleted: true,
+        },
+        {
+            list1: "Unlimited product updates",
+            isCompleted: true,
+        },
+        {
+            list1: "1GB  Cloud storage",
+            isCompleted: false,
+        },
+        {
+            list1: "Email and community support",
+            isCompleted: false,
+        }
+        ],
+        cardBtn: "Try for free"
+    },
+    {
+        cardHeader: "STANDARD",
+        Cardtext: "Organize across all apps by hand",
+        CardAmount: 9.99,
+        cardList:[
+            {
+                list1: "Unlimited product updates",
+                isCompleted: true,
+            },
+            {
+                list1: "Unlimited product updates",
+                isCompleted: true,
+            },
+            {
+                list1: "Unlimited product updates",
+                isCompleted: true,
+            },
+            {
+                list1: "1GB  Cloud storage",
+                isCompleted: false,
+            },
+            {
+                list1: "Email and community support",
+                isCompleted: false,
+            }
+        ],
+        cardBtn: "Try for free"
+    },
+    {
+        cardHeader: "PREMIUM",
+        Cardtext: "Organize across all apps by hand",
+        CardAmount: 19.99,
+        cardList:[
+            {
+                list1: "Unlimited product updates",
+                isCompleted: true,
+            },
+            {
+                list1: "Unlimited product updates",
+                isCompleted: true,
+            },
+            {
+                list1: "Unlimited product updates",
+                isCompleted: true,
+            },
+            {
+                list1: "1GB  Cloud storage",
+                isCompleted: false,
+            },
+            {
+                list1: "Email and community support",
+                isCompleted: false,
+            }
+        ],
+        cardBtn: "Try for free"
+    },
+
+
+]
+
+// Pricing FAQS section 
+export const pricingFaqsArray = {
+    pricingFaqsHeader: "Pricing FAQs",
+    pricingFaqsText: "We focus on ergonomics and meeting you where you work. It's only a keystroke away.",
+    faqsList:[
+        {
+            faqsListHeader: "Work better together",
+            faqsListText: "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met."
+        },
+        {
+            faqsListHeader: "OpenType features and Variable fonts",
+            faqsListText: "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met."
+        },
+        {
+            faqsListHeader: "Start working faster today",
+            faqsListText: "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met."
+        },
+        {
+            faqsListHeader: "Work at the speed of thought.",
+            faqsListText: "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met."
+        },
+        {
+            faqsListHeader: "The Fastest way to organize",
+            faqsListText: "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met."
+        },
+        {
+            faqsListHeader: "The Fastest way to navigate",
+            faqsListText: "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met."
+        },
+    ]
 }

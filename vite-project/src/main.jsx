@@ -12,10 +12,16 @@ import './assets/css/product.css'
 import './assets/css/about.css'
 import './assets/css/team.css'
 import './assets/css/prop.css'
+import './assets/css/pricing.css'
+import './assets/css/trial.css'
+import { Provider } from 'react-redux'
+import { store } from './component/redux/store.js'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <App />
+    </Provider>
   </React.StrictMode>,
 )

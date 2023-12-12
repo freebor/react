@@ -1,0 +1,6 @@
+export const HOME = "/"
+export const ABOUT = "/about"
+export const PRICING = "/pricing"
+export const PRODUCTLISTPAGES = "/productListPages"
+export const PRODUCTPAGES = "/productPages"
+export const CART = "/Cart"

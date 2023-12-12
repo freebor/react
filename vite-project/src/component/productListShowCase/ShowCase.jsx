@@ -7,7 +7,10 @@ const ShowCase = ()=>{
     return(
         <>
             <section className="bread-crum">
-                <BreadCrum />
+                <BreadCrum 
+                    currentText= 'Shop'
+                    currentHeader= 'Shop'
+                />
                 <ShopCardBanner />
             </section>
             <GridList/>

@@ -17,6 +17,9 @@ const BestSellerCard = ({sellingCard, bgProduct})=>{
                     <span></span>    
                 </div>}
             </div>
+            <button>
+                
+            </button>
         </div>
     )
 }

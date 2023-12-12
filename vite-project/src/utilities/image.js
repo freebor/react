@@ -66,9 +66,13 @@ import user1 from "../assets/img/user1.png"
 import user2 from "../assets/img/user2.png"
 import user3 from "../assets/img/user3.png"
 import weird from "../assets/img/weird.png"
+import payPal from "../assets/img/payPal.svg"
+import zipLogo from "../assets/img/zipLogo.svg"
 
 
 export{
+    zipLogo,
+    payPal,
     video,
     user1,
     user2,
