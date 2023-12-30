@@ -15,7 +15,8 @@ const BestSelling = () =>{
                         return(<BestSellerCard 
                             key = {bestSell.id}
                             sellingCard = {bestSell}
-                        />)
+                        />
+                        )
                     })}
                 </div>
             </div>

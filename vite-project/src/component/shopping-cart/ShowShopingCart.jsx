@@ -9,7 +9,7 @@ export const ShowShopingCart = () => {
           currentHeader= 'Shopping Cart'
           currentText= 'Cart'
         />
-        <div className="flex flex-col md:flex-row-reverse md:items-start md:justify-center lg:justify-between lg:px-10 items-center gap-[2rem] py-[3rem]">
+        <div className="flex flex-col lg:flex-row-reverse xl:px-[7rem] lg:justify-between lg:px-10 items-center lg:items-start gap-[2rem] py-[3rem]">
           <CheckoutTop />
           <Cart />
         </div>

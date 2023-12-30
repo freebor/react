@@ -3,10 +3,10 @@ import FooterCard from "./FooterCard"
 import {footerLinks} from "../../utilities/mockData"
 const Footer =() =>{
     return(
-        <section className="featured-container-wrap f-dir">
+        <section className="featured-container-wrap items-center flex flex-col">
             <Bandage />
-            <div className="footer">
-                <div className="footer-links-wrap">
+            <div className="flex flex-col lg:flex-row xl:justify-center justify-between lg:w-[97%]">
+                <div className="flex flex-col md:flex-row gap-[1.88rem]">
                     {footerLinks.map((footLink)=>{
                         return(
                             <FooterCard 
@@ -27,13 +27,13 @@ const Footer =() =>{
                     </div>
                 </div>
             </div>
-                <section className="bandage-container">
-                    <div className="copyRight-wrap">
-                        <div className="footer-copyRight">
-                            <p className="copyRight">Made With Love By Finland All Right Reserved </p>
-                        </div>
+            <section className="bandage-container">
+                <div className="copyRight-wrap">
+                    <div className="footer-copyRight">
+                        <p className="copyRight md:px-4">Made With Love By Finland All Right Reserved </p>
                     </div>
-                </section>
+                </div>
+            </section>
 
         </section>
     )

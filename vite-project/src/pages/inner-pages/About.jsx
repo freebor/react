@@ -1,7 +1,7 @@
 import ShowAbout from "../../component/about-section/ShowAbout"
 import BottomHeader from "../../component/Header/BottomHeader"
 import Footer from "../../component/footer/Footer"
-const About =()=>{
+const About = () =>{
     return(
         <>
             <BottomHeader 

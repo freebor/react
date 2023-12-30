@@ -1,10 +1,11 @@
 // Header array 
+import { HOME, ABOUT, PRICING, PRODUCTLISTPAGES, PRODUCTPAGES, CART } from "../component/routes"
 export const bottomHeader = [
-    {href: "#", tabs: "Home"},
-    {href: "#", tabs: "About"},
-    {href: "#", tabs: "Blog"},
-    {href: "#", tabs: "Contact"},
-    {href: "#", tabs: "Pages"}
+    {href: HOME, tabs: "Home"},
+    {href: ABOUT, tabs: "About"},
+    {href: PRICING, tabs: "Blog"},
+    {href: PRODUCTLISTPAGES, tabs: "Contact"},
+    {href: PRODUCTPAGES, tabs: "Pages"},    
 ]
 
 // footer Array
@@ -30,10 +31,10 @@ export const footerLinks = [
     {
       footerHeader: "Features",
       links: [
-        { childKey: 1, link1: "Business Marketing", href: "#" },
-        { childKey: 2, link1: "User Analytic", href: "#" },
-        { childKey: 3, link1: "Live Chat", href: "#" },
-        { childKey: 4, link1: "Unlimited Support", href: "#" }
+        { childKey: 1, link1: "Business Marketing", href: "#"},
+        { childKey: 2, link1: "User Analytic", href: "#"},
+        { childKey: 3, link1: "Live Chat", href: "#"},
+        { childKey: 4, link1: "Unlimited Support", href: "#"}
       ]
     },
     {

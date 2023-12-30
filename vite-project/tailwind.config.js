@@ -9,6 +9,7 @@ export default {
       colors:{
         darkTopHeader: "#252B42",
         loginLinkColor: "#23A6F0",
+        newLightBlue: "#8EC2F2",
         checkOutBlue: "#0156FF",
         checkOutYellow: {
           bg: "#FFB800",

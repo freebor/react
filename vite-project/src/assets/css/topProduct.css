@@ -37,11 +37,7 @@ ul{
     display: none;
 }
 
-.top-product-wrap{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 .product-container{
     display: flex;
     gap: 1rem;
@@ -75,9 +71,9 @@ ul{
     font-weight: 700;
     border: 1px solid #fff;
     border-radius: 5px;
-    color: #fff;
+    color: #2d8bc0bf;;
 }
-.product-container .top-product .image-text{
+.product-container .image-text{
     padding-inline: 4.12rem 9.72rem;
     padding-block: 3.75rem 2.62rem;
     font-size: 1.5rem;
@@ -85,7 +81,7 @@ ul{
     width: 68%;
     line-height: 2rem;
 }
-.second-product-half .top-product .image-text{
+.second-product-half .image-text{
     padding-inline: 2.25rem 3.19rem;
     padding-block: 2.5rem 1.81rem;
     font-size: 1.25rem;
@@ -94,7 +90,7 @@ ul{
 }
 
 /* ---------medium screen size---------- */
-@media screen and (max-width: 890px) and (min-width: 720px){
+@media screen and (max-width: 890px){
     .display-smallScreen{
         display: grid;
     }
@@ -109,20 +105,18 @@ ul{
         gap: 1.5rem;
         padding-block: 0rem;
     }
-    .first-product-half .top-product img{
-        height: 65.75rem;
-        width: 100%;
-    }
+    
     .top-product{
+        /* height: 52.75rem; */
+        width: 36rem;
+        display: flex;
         position: relative;
-        margin-inline: 2.5rem;
+        gap: 1.25rem;
     }
     .image-text{
         background-color: var(--top-product-color);
         color: #fff;
         position: absolute;
-        display: flex;
-        gap: 1.25rem;
         flex-direction: column;
         bottom: 0rem;
     }
@@ -152,18 +146,14 @@ ul{
         display: none;
     }
 
-    .top-product-wrap{
-        display: flex;
-        align-items: center;
-        padding-inline: 0rem;
-    }
+
     .product-container{
         display: grid;
         gap: 1.5rem;
         padding-block: 0rem;
     }
     .first-product-half .top-product img{
-        height: 32.75rem;
+        height: fit-content;
         width: 100%;
     }
     .top-product{

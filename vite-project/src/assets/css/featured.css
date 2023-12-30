@@ -57,7 +57,7 @@
 }
 .practiceAdvice-card{
     display: flex;
-    max-width: 31.3rem;
+    max-width: 20.3rem;
 }
 .practiceAdvice-card .img1{
     background: url(../img/palm.png) no-repeat;
@@ -209,7 +209,7 @@
     padding-block: 5rem;
     display: grid;
     gap: 5rem;
-    width: 65.625rem;
+    width: 71.625rem;
 }
 .best-service-header{
     gap: 0.63rem;

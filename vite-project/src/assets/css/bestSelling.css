@@ -36,7 +36,8 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     row-gap: 0.94rem;
-    column-gap: 1.88rem;
+    column-gap: 2.88rem;
+    align-items: end;
     padding: 2.5rem;
 }
 .best-selling-text{

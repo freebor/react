@@ -11,5 +11,5 @@ const BestServiceCard = ({service})=>{
 }
 export default BestServiceCard
 BestServiceCard.propTypes = {
-    service : PropTypes.string 
+    service : PropTypes.object 
 }

@@ -1,7 +1,7 @@
 import {facebook, twitter, instagram} from "../../utilities/image"
 const Bandage = ()=>{
     return(
-        <section className="bandage-container">
+        <section className="bandage-container px-8 md:px-4">
             <div className="bandage-wrap">
                 <div className="footer-bandage">
                     <p className="logo">Bandage</p>
